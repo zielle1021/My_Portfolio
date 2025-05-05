@@ -1,18 +1,20 @@
 /* ===== CSS VARIABLES ===== */
 :root {
-    --primary-color: #2563eb;       /* Primary accent color */
-    --primary-dark: #1d4ed8;       /* Darker shade of primary */
-    --primary-light: #3b82f6;      /* Lighter shade of primary */
-    --secondary-color: #6366f1;    /* Secondary accent color */
-    --text-color: #1f2937;         /* Main text color */
-    --text-light: #4b5563;         /* Lighter text for paragraphs */
-    --text-dark: #111827;          /* Darker text for headers */
-    --bg-color: #ffffff;           /* Background color */
-    --bg-light: #f9fafb;           /* Light background for sections */
-    --border-color: #e5e7eb;       /* Border color */
-    --success-color: #10b981;      /* Success messages */
-    --error-color: #ef4444;        /* Error messages */
-    --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); /* Gradient */
+    --primary-color: #8b5cf6;       /* Purple 500 */
+    --primary-dark: #7c3aed;        /* Purple 600 */
+    --primary-light: #a78bfa;       /* Purple 300 */
+    --secondary-color: #6366f1;     /* Indigo 500 */
+    --text-color: #1f2937;
+    --text-light: #4b5563;
+    --text-dark: #111827;
+    --bg-color: #ffffff;
+    --bg-light: #f9fafb;
+    --border-color: #e5e7eb;
+    --success-color: #10b981;
+    --error-color: #ef4444;
+    --gradient-primary: linear-gradient(135deg, #8b5cf6, #6366f1); /* Purple gradient */
+}
+
     
     /* Font settings */
     --font-primary: 'Poppins', sans-serif;
