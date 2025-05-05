@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- Bootstrap 5 CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#objectives">Objectives</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+  <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Kathreen Gutierrez</span></h1>
+            <h2>College Student</h2>
+            <p>Welcome to my portfolio. Here you'll find information about my background, skills, and objectives in taking Information Technology.</p>
+            <div class="hero-btns">
+                <a href="#about" class="btn btn-primary">Learn More</a>
+                <!-- Download CV Button -->
+                <a href="cv.pdf" class="btn btn-secondary" download="CV_Kathreen_Gutierrez">Download CV</a>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <div class="img-container">
+                        <!-- Replace with your image -->
+                        <img src="kath.jpg" alt="Profile Photo">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I am a passionate BSIT College Student 3rd Year. I specialize in Analytics and Data Configurration. I am currently working as a Data Analyst in a large company in the Philippines. I have a strong interest in learning and growing professionally. I am always looking for new opportunities to expand my skills and knowledge. I am committed to continuous learning and improving my skills to stay ahead in the industry.</p>
+                    
+                    <p>My approach combines technical expertise with creative problem-solving to deliver exceptional results. I am constantly learning and evolving to stay at the forefront of industry developments.</p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-title">Name:</span>
+                            <span class="info-value">Kathreen Gutierrez</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Email:</span>
+                            <span class="info-value">GutierrezKathreen@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Location:</span>
+                            <span class="info-value">Nagpandayan, Guimba, Nueva Ecija Philippines</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Availability:</span>
+                            <span class="info-value">Available for new opportunities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Education Section -->
+<section id="education" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p>My academic journey</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">2009 - 2015</div>
+            <h3>Elementary School</h3>
+            <h4>Nagpandayan, Guimba, Nueva Ecija Philippines</h4>
+            <p>I graduated with honors in Mathematics and Science. Participated in various extracurricular activities, including debate, science fair, and school newspaper.</p>
+          </div>
+        </div>
+  
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">2015 - 2022</div>
+            <h3>Junior & Senior High School</h3>
+            <h4>Nagpandayan National High School</h4>
+            <button onclick="openModal('modalNagpandayan')" style="margin-top: 10px; padding: 8px 16px; background-color: #2c3e50; color: white; border: none; border-radius: 5px; cursor: pointer;">View More</button>
+          </div>
+        </div>
+  
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">2022 - Present</div>
+            <h3>College Student</h3>
+            <h4>BSIT College</h4>
+            <p>I am currently pursuing my Bachelor of Science in Information Technology (BSIT) at the Our Lady of Sacred Heart College of Guimba Inc. This is a challenging yet rewarding academic journey that has allowed me to develop my skills and knowledge in a supportive and dynamic environment. I am excited to embark on this new chapter in my life and contribute to the growth and success of the college community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal for Nagpandayan National High School -->
+  <div id="modalNagpandayan" class="modal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color: rgba(0,0,0,0.6);">
+    <div class="modal-content" style="background-color:#fff; margin:5% auto; padding:20px; border-radius:12px; width:90%; max-width:800px; box-shadow:0 8px 20px rgba(0,0,0,0.2); position:relative;">
+      <span class="close" onclick="closeModal('modalNagpandayan')" style="position:absolute; top:20px; right:30px; font-size:30px; font-weight:bold; color:#333; cursor:pointer;">&times;</span>
+      <h2 style="color: #2c3e50;">Nagpandayan National High School</h2>
+      <p style="line-height:1.7; font-size:16px; color:#444; text-align:justify;">
+        I graduated from Nagpandayan National High School, where I completed both my Junior and Senior High School education. This institution played a pivotal role in shaping my academic mindset and personal discipline. During these formative years, I deepened my understanding of core subjects such as mathematics, science, and communication, while also developing leadership and collaborative skills through various school activities and organizations.
+        <br><br>
+        As a Senior High School student under the ICT strand, I was introduced to the fundamentals of programming, multimedia, and computer systems—knowledge that sparked my passion for technology and laid the groundwork for my current path in the IT field. The school fostered a supportive environment that encouraged innovation, responsibility, and goal-setting—qualities that continue to influence my academic and professional journey today.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Expertise</h2>
+                <p>My professional skills</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Skill 1</h4>
+                                <div class="skill-percentage">90%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Skill 2</h4>
+                                <div class="skill-percentage">85%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Skill 3</h4>
+                                <div class="skill-percentage">80%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Skill 4</h4>
+                                <div class="skill-percentage">75%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Communication</h4>
+                                <div class="skill-percentage">80%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Leadership</h4>
+                                <div class="skill-percentage">75%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Problem Solving</h4>
+                                <div class="skill-percentage">80%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Teamwork</h4>
+                                <div class="skill-percentage">95%</div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="section bg-light py-5">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="fw-bold">Certifications</h2>
+        <p class="text-muted">Professional qualifications that showcase my skills and learning</p>
+      </div>
+      <div class="row g-4">
+  
+        <!-- Certification 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body">
+              <div class="mb-3 text-primary fs-1">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <h5 class="card-title">Certification Title 1</h5>
+              <p class="text-muted mb-1">Issuing Organization</p>
+              <p class="text-muted small">Month Year</p>
+              <p class="card-text">Brief description of what you learned and the skills you gained from this certification.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#certModal1">
+                View Certificate <i class="fas fa-external-link-alt ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Modal 1 -->
+        <div class="modal fade" id="certModal1" tabindex="-1" aria-labelledby="certModalLabel1" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="certModalLabel1">Certification Title 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="cer1 (1).jpg" alt="Certificate 1" class="img-fluid rounded shadow-sm">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Certification 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body">
+              <div class="mb-3 text-primary fs-1">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <h5 class="card-title">Certification Title 2</h5>
+              <p class="text-muted mb-1">Issuing Organization</p>
+              <p class="text-muted small">Month Year</p>
+              <p class="card-text">Brief description of what you learned and the skills you gained from this certification.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#certModal2">
+                View Certificate <i class="fas fa-external-link-alt ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Modal 2 -->
+        <div class="modal fade" id="certModal2" tabindex="-1" aria-labelledby="certModalLabel2" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="certModalLabel2">Certification Title 2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="cer1 (2).jpg" alt="Certificate 2" class="img-fluid rounded shadow-sm">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+
+<!-- Professional Objectives Section -->
+<section id="objectives" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Professional Objectives</h2>
+            <p>My career goals and aspirations</p>
+        </div>
+        <div class="objectives-content">
+            <div class="objective-card">
+                <div class="objective-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>Short-term Goals</h3>
+                <p>
+                    As a third-year BSIT student, my immediate goal is to secure an internship or junior remote position in UI/UX design to gain practical experience in the tech industry. I plan to master Figma prototyping and develop at least three interactive design projects to enhance my personal portfolio. Additionally, I aim to give back by organizing a coding workshop or webinar for high school students in my community, helping them explore opportunities in technology. To broaden my exposure and professional network, I also intend to attend at least three local or virtual technology conferences, such as DevCon PH, Graphika Manila, or UX+ Conference.
+                </p>
+            </div>
+            <div class="objective-card">
+                <div class="objective-icon">
+                    <i class="fas fa-road"></i>
+                </div>
+                <h3>Mid-term Vision</h3>
+                <p>
+                    Over the next two to three years, I aspire to lead a capstone or research project focusing on smart city infrastructure or Internet of Things (IoT) solutions, aligning with current global trends in innovation. I aim to contribute to open-source initiatives that promote ethical AI development and begin to establish myself as an enthusiast or emerging expert in areas like quantum computing or cybersecurity. Participating in innovation challenges or tech hackathons is also part of my plan, with the goal of earning recognition for creative and impactful solutions.
+                </p>
+            </div>
+            <div class="objective-card">
+                <div class="objective-icon">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <h3>Long-term Aspirations</h3>
+                <p>
+                    In the long run, I envision launching a tech startup or non-profit organization that focuses on clean technology or widening access to IT education. I hope to contribute to the development of advanced software solutions for emerging fields such as quantum computing, and champion sustainable tech practices by promoting modular device designs that help reduce electronic waste. Ultimately, I aim to be recognized as a thought leader who effectively bridges the gap between cutting-edge technology and meaningful social impact, using my skills to create a better, more equitable future.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Form -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's connect!</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>gutierrezKathreen@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+639456789345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="text">
+                            <h3>Location</h3>
+                            <p>Nueva Ecija Philippines</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Kathreen Gutierrez. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <span class="divider">|</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
